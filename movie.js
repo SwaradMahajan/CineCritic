@@ -1,7 +1,7 @@
 const url = new URL(location.href);
 const movieId = url.searchParams.get("id");
 const movieTitle = url.searchParams.get("title");
-const APILINK = "http://localhost:8000/api/v1/reviews/";
+const APILINK = "https://cinecritic-lpua.onrender.com/api/v1/reviews/";
 
 //generating section
 const main = document.getElementById("section");
