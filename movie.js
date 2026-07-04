@@ -15,7 +15,7 @@ div_new.innerHTML = `
             <div class="review_card">
                 <h2 class="new-review-title">Add a Review</h2>
                 <p>
-                    <label>Review</label>zs
+                    <label>Review</label>
                     <input type="text" id="new_review" value="">
                 </p>
                 <p>
