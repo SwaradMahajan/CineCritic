@@ -1,8 +1,7 @@
 const url = new URL(location.href);
 const movieId = url.searchParams.get("id");
 const movieTitle = url.searchParams.get("title");
-
-const APILINK = "http://localhost:8000/api/v1/reviews/";
+const APILINK = "https://cinecritic-api.onrender.com/api/v1/reviews/";
 
 //generating section
 const main = document.getElementById("section");
@@ -16,7 +15,7 @@ div_new.innerHTML = `
             <div class="review_card">
                 <h2 class="new-review-title">Add a Review</h2>
                 <p>
-                    <label>Review</label>
+                    <label>Review</label>zs
                     <input type="text" id="new_review" value="">
                 </p>
                 <p>
