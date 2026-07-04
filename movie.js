@@ -1,13 +1,12 @@
 const url = new URL(location.href);
 const movieId = url.searchParams.get("id");
 const movieTitle = url.searchParams.get("title");
-const APILINK = "https://cinecritic-7ino.onrender.com/api/reviews/";
+const APILINK = "http://localhost:8000/api/v1/reviews/";
 
 //generating section
 const main = document.getElementById("section");
 const title = document.getElementById("title");
 title.innerText = movieTitle;
-
 const div_new = document.createElement("div");
 div_new.innerHTML = `
     <div class="row">
